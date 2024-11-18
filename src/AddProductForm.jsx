@@ -31,7 +31,7 @@ function AddProductForm ({onAddProduct}){
             </div>
             <div>
                 <label>
-                    Name:
+                    Description:
                     <input
                     type="text"
                     value={description}
@@ -42,11 +42,11 @@ function AddProductForm ({onAddProduct}){
             </div>
             <div>
                 <label>
-                    Name:
+                    Price:
                     <input
                     type="text"
                     value={description}
-                    onChange={(e) => setPrice(e.target.value) || ''} 
+                    onChange={(e) => setPrice(e.target.value)} 
                     required
                     />
                 </label>

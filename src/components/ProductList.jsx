@@ -12,7 +12,7 @@ function ProductList(){
             {products.map(
             //ensure each product item is given unique key
                 product => (
-                    <li key={product.id}>{product.name}-${product.price}</li>
+                    <li key={product.id}>{product.name}-${product.price},  {product.description}</li>
                 )
             )}
         </ul>
